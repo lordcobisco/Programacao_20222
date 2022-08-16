@@ -5,7 +5,8 @@ Anna Karoline Almeida Soares - Matrícula:2022020022
 **1. Descreva de forma narrativa (slide 27) com a maior quantidade de detalhes possível (Interação
 paciente máquina, setup, comunicação com hardware, o que estiver mais familiarizado) como se
 daria a utilização do Lokomat® e ZeroG®.**
-***Utilização do Lokomat®:
+
+***Utilização do Lokomat®:***
 
 Realize a medição do comprimento da coxa e da perna do paciente
 
@@ -112,7 +113,7 @@ Enquanto o paciente estiver no tempo de movimento, não aperte o botão
 Retire o paciente do equipamento, trazendo de volta sua cadeira e desafivelando todas as fivelas
 
 
-***Utilização do ZeroG®:
+***Utilização do ZeroG®:***
 
 Posicione o paciente de pé
 
@@ -153,6 +154,7 @@ Retire o paciente do equipamento, desafivelando todas as fivelas
 
 **2. A partir das informações colocadas no texto da questão 1, destacar o que seriam memória,
 processamento, entrada/saída:**
+
 *Memória:*
 "Guarde as informações de comprimento da perna do paciente"
 
@@ -162,6 +164,7 @@ processamento, entrada/saída:**
 
 
 *Processamento:*
+
 "Realize a medição do tamanho da coxa e da perna do paciente"
 
 "Busque o cinto ou blusa do Lokomat no local onde ele está guardado"
@@ -191,6 +194,7 @@ processamento, entrada/saída:**
 "Posicione uma corda com fivela e trava de segurança embaixo dos pés do paciente";
 
 *Entrada:*
+
 Mouse
 
 Controle
@@ -198,6 +202,7 @@ Controle
 Teclado
 
 *Saída:*
+
 Monitor
 
 Gráfico no monitor
@@ -207,7 +212,9 @@ Tablet
 
 **3. A partir das informações colocadas no texto da questão 1, destacar o que seriam as estruturas de
 repetição e de decisão:**
+
 ***Estruturas de repetição:***
+
 "Se a barra não subir, então cheque o que houve"
 
 "Se as fivelas não estiverem bem ajustadas, então reajuste-as"
@@ -217,6 +224,7 @@ repetição e de decisão:**
 "Se o equipamento não baixar a barra com o paciente, então pressione novamente no botão"
 
 ***Estruturas de decisão:***
+
 "Enquanto o paciente estiver no tempo de movimento, não aperte o botão"
 
 
