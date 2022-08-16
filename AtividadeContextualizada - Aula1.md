@@ -8,8 +8,11 @@ daria a utilização do Lokomat® e ZeroG®.**
 Utilização do Lokomat®:
 
 Realize a medição do comprimento da coxa e da perna do paciente
+
 Guarde as informações de comprimento da perna do paciente
+
 Busque o cinto ou blusa do Lokomat no local onde ele está guardado
+
 Leve o cinto ou blusa do Lokomat até o paciente
 Peça para que o paciente incline o tronco para frente
 Erga o  cinto ou blusa do Lokomat e coloque-o atrás da coluna do paciente, entre a coluna e a cadeira
