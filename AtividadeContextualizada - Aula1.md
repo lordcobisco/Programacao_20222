@@ -7,7 +7,7 @@ paciente máquina, setup, comunicação com hardware, o que estiver mais familia
 daria a utilização do Lokomat® e ZeroG®.**
 Utilização do Lokomat®:
 
-Meça o comprimento da coxa e da perna do paciente
+Realize a medição do comprimento da coxa e da perna do paciente
 Guarde as informações de comprimento da perna do paciente
 Busque o cinto ou blusa do Lokomat no local onde ele está guardado
 Leve o cinto ou blusa do Lokomat até o paciente
@@ -89,7 +89,7 @@ Memória:
 "Registre o gráfico de movimento do paciente"
 
 Processamento:
-"Meça o tamanho da coxa e da perna do paciente"
+"Realize a medição do tamanho da coxa e da perna do paciente"
 "Busque o cinto ou blusa do Lokomat no local onde ele está guardado"
 "Leve o cinto ou blusa do Lokomat até o paciente"
 "Peça para que o paciente incline o tronco para frente"
@@ -129,6 +129,7 @@ Estruturas de decisão:
 
 **4. Converter as informações compiladas nas questões 1, 2 e 3 em um diagrama de blocos
 conforme apresentado no slide 28.**
+
 
 
 
