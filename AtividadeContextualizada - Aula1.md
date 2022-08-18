@@ -12,21 +12,19 @@ Realize a medição do comprimento da coxa e da perna do paciente
 
 Guarde as informações de comprimento da perna do paciente
 
-Busque o cinto ou blusa do Lokomat no local onde ele está guardado
+Busque a blusa do Lokomat no local onde ele está guardado
 
-Leve o cinto ou blusa do Lokomat até o paciente
+Leve a blusa do Lokomat até o paciente
 
 Peça para que o paciente incline o tronco para frente
 
-Erga o  cinto ou blusa do Lokomat e coloque-o atrás da coluna do paciente, entre a coluna e a cadeira
+Erga a blusa do Lokomat e coloque-o atrás da coluna do paciente, entre a coluna e a cadeira
 
-Alinhe o local sinalizado por um "M" no cinto ou blusa do Lokomat à coluna do paciente
+Alinhe o local sinalizado por um "M" na blusa do Lokomat à coluna do paciente
 
-Ajuste o cinto ou blusa do Lokomat ao corpo do paciente
+Ajuste a blusa do Lokomat ao corpo do paciente
 
-Prenda o cinto ou blusa do Lokomat frente do corpo do paciente
-
-Feche todas as travas do cinto ou blusa do Lokomat
+Feche todas as travas da blusa do Lokomat
 
 Após fechar as travas, puxe cada corda da trava para ajustá-lo ao corpo do paciente
 
@@ -236,3 +234,301 @@ conforme apresentado no slide 28.**
 
 **5. Converter as informações compiladas nas questões 1, 2 e 3 em um pseudocódigo conforme
 apresentado no slide 30**
+***Pseudocódigo de utilização do Lokomat***
+
+**Algoritmo** Lokomat_utilizar 
+
+**Var** SIM, NÃO: **Texto** 
+
+**Início**  
+
+<medir_comprimento_de_coxa_e_perna_do_paciente> 
+
+<guardar_informações_do_comprimento_da_perna_do_paciente> 
+
+<buscar_blusa_do_lokomat_no_local_guardado> 
+
+<levar_blusa_até_paciente> 
+
+<pedir_que_paciente_incline_tronco_para_frente> 
+
+<erguer_blusa_e_colocar_atrás_da_coluna_do_paciente> 
+
+<alinhar_local_sinalizado_por_M_à_coluna_do_paciente> 
+
+<ajustar_blusa_ao_corpo_do_paciente> 
+
+<fechar_travas_da_blusa> 
+
+<ajustar_travas_de_segurança_ao_corpo_do_paciente> 
+
+<perguntar_ao_paciente_sobre_conforto> 
+
+**Escreva:** <A blusa está confortável?> 
+
+**Receba:** <SIM, NÃO> 
+
+**Leia:** <SIM, NÃO> 
+
+**Se** SIM **então** 
+
+   **Escreva** “Ótimo, vamos começar.” 
+
+**Senão**
+
+  **Escreva** “Reajuste-as.” 
+
+<levar_paciente_a_plataforma> 
+
+<pegar_controle_da_plataforma> 
+
+<ligar_plataforma> 
+
+<baixar_barra_de_suporte_da_plataforma> 
+
+<segurar_barra_de_suporte_superior> 
+
+<prender_alças_aos_ganchos_da_barra_de_suporte> 
+
+<acionar_botão_que_liga_a_barra_de_suporte> 
+
+<esperar_barra_de_suporte_erguer_paciente> 
+
+**Escreva:** <A barra de suporte subiu e ergueu o paciente?> 
+
+**Receba:** <SIM, NÃO> 
+
+**Leia:** <SIM, NÃO> 
+
+**Se** SIM **então** 
+
+   **Escreva** “Ótimo, vamos começar.” 
+
+**Senão**
+
+  **Escreva** “Pressione novamente o botão para ligar a barra.” 
+
+<retirar_cadeira_do_paciente> 
+
+<pedir_para_paciente_segurar_barras_laterais_da_plataforma> 
+
+<posicionar_suporte_de_tronco> 
+
+<ajustar_suporte_de_tronco_ao_corpo_do_paciente> 
+
+<conectar_fivelas_de_segurança_ao_suporte_de_tronco> 
+
+<ajustar_fivelas_de_segurança_às_pernas_do_paciente> 
+
+**Escreva:** <As fivelas estão bem ajustadas?> 
+
+**Receba:** <SIM, NÃO> 
+
+**Leia:** <SIM, NÃO> 
+
+**Se** SIM **então** 
+
+   **Escreva** “Ótimo, vamos começar.” 
+
+**Senão**
+
+  **Escreva** “Reajuste-as.” 
+
+<empurrar_pernas_do_paciente_para_movimentar> 
+
+<posicionar_corda_com_fivela_de_segurança_embaixo_dos_pés_do_paciente> 
+
+<ajustar_fivelas_aos_pés_do_paciente> 
+
+**Escreva:** <As fivelas estão bem ajustadas?> 
+
+**Receba:** <SIM, NÃO> 
+
+**Leia:** <SIM, NÃO> 
+
+**Se** SIM **então** 
+
+   **Escreva** “Ótimo, vamos começar.” 
+
+**Senão**
+
+  **Escreva** “Reajuste-as.” 
+
+<utilizar_teclado_do_equipamento> 
+
+<selecionar__opção_“Training”_na_tela_do_computador> 
+
+< selecionar__opção_“Start position”_na_tela_do_computador> 
+
+**Escreva:** <O equipamento iniciou seu funcionamento?> 
+
+**Receba:** <SIM, NÃO> 
+
+**Leia:** <SIM, NÃO> 
+
+**Se** SIM **então** 
+
+   **Escreva** “Ótimo, vamos começar.” 
+
+**Senão**
+
+  **Escreva** “Clique novamente na opção ‘Start position’.” 
+
+<iniciar_movimentos_de_pernas> 
+
+<selecionar__opção_“Stop”_na_tela_do_computador> 
+
+<pressionar_botão_“Baixar”> 
+
+<baixar_barra_de_suporte> 
+
+**Escreva:** <A barra de suporte baixou?> 
+
+**Receba:** <SIM, NÃO> 
+
+**Leia:** <SIM, NÃO> 
+
+**Se** SIM **então** 
+
+   **Escreva** “Ótimo, vamos começar.” 
+
+**Senão**
+
+  **Escreva** “Pressione novamente o botão ‘Baixar’.” 
+
+<encostar_pés_do_paciente_na_esteira> 
+
+<reiniciar_movimentos_de_pernas> 
+
+<mostrar_gráficos_na_tela_do_computador> 
+
+<registrar_gráficos_no_computador> 
+
+<monitorar_movimentos_do_paciente> 
+
+**Escreva:** <O paciente ficou o tempo necessário no equipamento?> 
+
+**Receba:** <SIM, NÃO> 
+
+**Leia:** <SIM, NÃO> 
+
+**Se** SIM **então** 
+
+   **Escreva** “Ótimo, vamos finalizar a sessão.” 
+
+**Senão**
+
+  **Escreva** “Continue com os movimentos e monitoramento do paciente.” 
+
+<retirar_paciente_do_equipamento> 
+
+<finalizar_sessão> 
+
+<levar_paciente_de_volta_a_cadeira> 
+
+Fim_se 
+
+Fim 
+
+
+***Pseudocódigo de utilização do ZeroG***
+
+**Algoritmo** ZeroG_utilizar 
+
+**Var** SIM, NÃO: **Texto**
+
+**Início** 
+
+<posicionar_paciente_em_pé> 
+
+<ajustar_blusa_do_equipamento_ao_tronco_do_paciente> 
+
+<checar_fivelas_de_segurança> 
+
+**Escreva** <As fivelas estão bem ajustadas?> 
+
+**Receba:** <SIM, NÃO> 
+
+**Leia:** <SIM, NÃO> 
+
+**Se** SIM **então** 
+
+**Escreva** “Ótimo, continue.” 
+
+**Senão** 
+
+**Escreva** “Reajuste-as.” 
+
+<posicionar_terapeuta_ao_lado_do_paciente> 
+
+<orientar_paciente_sobre_início> 
+
+<buscar_controle_do_equipamento> 
+
+<apertar_botão_“Iniciar”_no_controle> 
+
+**Escreva** <O ZeroG iniciou?> 
+
+**Receba:** <SIM, NÃO> 
+
+**Leia:** <SIM, NÃO> 
+
+**Se** SIM **então** 
+
+**Escreva** “Ótimo, vamos começar.” 
+
+**Senão** 
+
+**Escreva** “Aperte novamente o botão ‘Iniciar’.” 
+
+<orientar_paciente_a_andar_para_frente> 
+
+<orientar_paciente_a_andar_para_trás> 
+
+<ajustar_movimentos_esperados_no_tablet_de_controle> 
+
+<aumentar_velocidade_de_marcha_no_ tablet_de_controle> 
+
+<caminhar_ao_lado_do_paciente> 
+
+ **Escreva** <Paciente precisa de ajuda?> 
+
+**Receba:** <SIM, NÃO> 
+
+**Leia:** <SIM, NÃO> 
+
+**Se** SIM **então** 
+
+**Escreva** “Ajude-o e permaneça atento.” 
+
+**Senão** 
+
+**Escreva** “Ótimo, continue observando-o.” 
+
+<pedir_feedback_ao_paciente> 
+
+<apertar_botão_“Parar”_no_equipamento_> 
+
+**Escreva** <O ZeroG parou?> 
+
+**Receba:** <SIM, NÃO> 
+
+**Leia:** <SIM, NÃO> 
+
+**Se** SIM **então** 
+
+**Escreva** “Ótimo, vamos finalizar.” 
+
+**Senão** 
+
+**Escreva** “Aperte novamente o botão 'Parar’.” 
+
+ <retirar_paciente_do_equipamento> 
+
+<finalizar_sessão> 
+
+<levar_paciente_de_volta_a_cadeira> 
+
+**Fim_se 
+
+**Fim 
