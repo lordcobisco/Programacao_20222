@@ -238,27 +238,27 @@ apresentado no slide 30**
 
 **Início**  
 
-<medir_comprimento_de_coxa_e_perna_do_paciente> 
+  <medir_comprimento_de_coxa_e_perna_do_paciente> 
 
-<guardar_informações_do_comprimento_da_perna_do_paciente> 
+  <guardar_informações_do_comprimento_da_perna_do_paciente> 
 
-<buscar_blusa_do_lokomat_no_local_guardado> 
+  <buscar_blusa_do_lokomat_no_local_guardado> 
 
-<levar_blusa_até_paciente> 
+  <levar_blusa_até_paciente> 
 
-<pedir_que_paciente_incline_tronco_para_frente> 
+  <pedir_que_paciente_incline_tronco_para_frente> 
 
-<erguer_blusa_e_colocar_atrás_da_coluna_do_paciente> 
+  <erguer_blusa_e_colocar_atrás_da_coluna_do_paciente> 
 
-<alinhar_local_sinalizado_por_M_à_coluna_do_paciente> 
+  <alinhar_local_sinalizado_por_M_à_coluna_do_paciente> 
 
-<ajustar_blusa_ao_corpo_do_paciente> 
+  <ajustar_blusa_ao_corpo_do_paciente> 
 
-<fechar_travas_da_blusa> 
+  <fechar_travas_da_blusa> 
 
-<ajustar_travas_de_segurança_ao_corpo_do_paciente> 
+  <ajustar_travas_de_segurança_ao_corpo_do_paciente> 
 
-<perguntar_ao_paciente_sobre_conforto> 
+  <perguntar_ao_paciente_sobre_conforto> 
 
 **Escreva:** <A blusa está confortável?> 
 
@@ -274,21 +274,21 @@ apresentado no slide 30**
 
   **Escreva** “Reajuste-as.” 
 
-<levar_paciente_a_plataforma> 
+  <levar_paciente_a_plataforma> 
 
-<pegar_controle_da_plataforma> 
+  <pegar_controle_da_plataforma> 
 
-<ligar_plataforma> 
+  <ligar_plataforma> 
 
-<baixar_barra_de_suporte_da_plataforma> 
+  <baixar_barra_de_suporte_da_plataforma> 
 
-<segurar_barra_de_suporte_superior> 
+  <segurar_barra_de_suporte_superior> 
 
-<prender_alças_aos_ganchos_da_barra_de_suporte> 
+  <prender_alças_aos_ganchos_da_barra_de_suporte> 
 
-<acionar_botão_que_liga_a_barra_de_suporte> 
+  <acionar_botão_que_liga_a_barra_de_suporte> 
 
-<esperar_barra_de_suporte_erguer_paciente> 
+  <esperar_barra_de_suporte_erguer_paciente> 
 
 **Escreva:** <A barra de suporte subiu e ergueu o paciente?> 
 
@@ -304,37 +304,17 @@ apresentado no slide 30**
 
   **Escreva** “Pressione novamente o botão para ligar a barra.” 
 
-<retirar_cadeira_do_paciente> 
+  <retirar_cadeira_do_paciente> 
 
-<pedir_para_paciente_segurar_barras_laterais_da_plataforma> 
+  <pedir_para_paciente_segurar_barras_laterais_da_plataforma> 
 
-<posicionar_suporte_de_tronco> 
+  <posicionar_suporte_de_tronco> 
 
-<ajustar_suporte_de_tronco_ao_corpo_do_paciente> 
+  <ajustar_suporte_de_tronco_ao_corpo_do_paciente> 
 
-<conectar_fivelas_de_segurança_ao_suporte_de_tronco> 
+  <conectar_fivelas_de_segurança_ao_suporte_de_tronco> 
 
-<ajustar_fivelas_de_segurança_às_pernas_do_paciente> 
-
-**Escreva:** <As fivelas estão bem ajustadas?> 
-
-**Receba:** <SIM, NÃO> 
-
-**Leia:** <SIM, NÃO> 
-
-**Se** SIM **então** 
-
-   **Escreva** “Ótimo, vamos começar.” 
-
-**Senão**
-
-  **Escreva** “Reajuste-as.” 
-
-<empurrar_pernas_do_paciente_para_movimentar> 
-
-<posicionar_corda_com_fivela_de_segurança_embaixo_dos_pés_do_paciente> 
-
-<ajustar_fivelas_aos_pés_do_paciente> 
+  <ajustar_fivelas_de_segurança_às_pernas_do_paciente> 
 
 **Escreva:** <As fivelas estão bem ajustadas?> 
 
@@ -350,11 +330,31 @@ apresentado no slide 30**
 
   **Escreva** “Reajuste-as.” 
 
-<utilizar_teclado_do_equipamento> 
+  <empurrar_pernas_do_paciente_para_movimentar> 
 
-<selecionar__opção_“Training”_na_tela_do_computador> 
+  <posicionar_corda_com_fivela_de_segurança_embaixo_dos_pés_do_paciente> 
 
-< selecionar__opção_“Start position”_na_tela_do_computador> 
+  <ajustar_fivelas_aos_pés_do_paciente> 
+
+**Escreva:** <As fivelas estão bem ajustadas?> 
+
+**Receba:** <SIM, NÃO> 
+
+**Leia:** <SIM, NÃO> 
+
+**Se** SIM **então** 
+
+   **Escreva** “Ótimo, vamos começar.” 
+
+**Senão**
+
+  **Escreva** “Reajuste-as.” 
+
+  <utilizar_teclado_do_equipamento> 
+
+  <selecionar__opção_“Training”_na_tela_do_computador> 
+
+  < selecionar__opção_“Start position”_na_tela_do_computador> 
 
 **Escreva:** <O equipamento iniciou seu funcionamento?> 
 
@@ -370,13 +370,13 @@ apresentado no slide 30**
 
   **Escreva** “Clique novamente na opção ‘Start position’.” 
 
-<iniciar_movimentos_de_pernas> 
+  <iniciar_movimentos_de_pernas> 
 
-<selecionar__opção_“Stop”_na_tela_do_computador> 
+  <selecionar__opção_“Stop”_na_tela_do_computador> 
 
-<pressionar_botão_“Baixar”> 
+  <pressionar_botão_“Baixar”> 
 
-<baixar_barra_de_suporte> 
+  <baixar_barra_de_suporte> 
 
 **Escreva:** <A barra de suporte baixou?> 
 
@@ -392,15 +392,15 @@ apresentado no slide 30**
 
   **Escreva** “Pressione novamente o botão ‘Baixar’.” 
 
-<encostar_pés_do_paciente_na_esteira> 
+  <encostar_pés_do_paciente_na_esteira> 
 
-<reiniciar_movimentos_de_pernas> 
+  <reiniciar_movimentos_de_pernas> 
 
-<mostrar_gráficos_na_tela_do_computador> 
+  <mostrar_gráficos_na_tela_do_computador> 
 
-<registrar_gráficos_no_computador> 
+  <registrar_gráficos_no_computador> 
 
-<monitorar_movimentos_do_paciente> 
+  <monitorar_movimentos_do_paciente> 
 
 **Escreva:** <O paciente ficou o tempo necessário no equipamento?> 
 
@@ -416,15 +416,15 @@ apresentado no slide 30**
 
   **Escreva** “Continue com os movimentos e monitoramento do paciente.” 
 
-<retirar_paciente_do_equipamento> 
+  <retirar_paciente_do_equipamento> 
 
-<finalizar_sessão> 
+  <finalizar_sessão> 
 
-<levar_paciente_de_volta_a_cadeira> 
+  <levar_paciente_de_volta_a_cadeira> 
 
-Fim_se 
+**Fim_se 
 
-Fim 
+**Fim 
 
 
 ***Pseudocódigo de utilização do ZeroG***
@@ -435,11 +435,11 @@ Fim
 
 **Início** 
 
-<posicionar_paciente_em_pé> 
+  <posicionar_paciente_em_pé> 
 
-<ajustar_blusa_do_equipamento_ao_tronco_do_paciente> 
+  <ajustar_blusa_do_equipamento_ao_tronco_do_paciente> 
 
-<checar_fivelas_de_segurança> 
+  <checar_fivelas_de_segurança> 
 
 **Escreva** <As fivelas estão bem ajustadas?> 
 
@@ -455,13 +455,13 @@ Fim
 
 **Escreva** “Reajuste-as.” 
 
-<posicionar_terapeuta_ao_lado_do_paciente> 
+  <posicionar_terapeuta_ao_lado_do_paciente> 
 
-<orientar_paciente_sobre_início> 
+  <orientar_paciente_sobre_início> 
 
-<buscar_controle_do_equipamento> 
+  <buscar_controle_do_equipamento> 
 
-<apertar_botão_“Iniciar”_no_controle> 
+  <apertar_botão_“Iniciar”_no_controle> 
 
 **Escreva** <O ZeroG iniciou?> 
 
@@ -477,15 +477,15 @@ Fim
 
 **Escreva** “Aperte novamente o botão ‘Iniciar’.” 
 
-<orientar_paciente_a_andar_para_frente> 
+  <orientar_paciente_a_andar_para_frente> 
 
-<orientar_paciente_a_andar_para_trás> 
+  <orientar_paciente_a_andar_para_trás> 
 
-<ajustar_movimentos_esperados_no_tablet_de_controle> 
+  <ajustar_movimentos_esperados_no_tablet_de_controle> 
 
-<aumentar_velocidade_de_marcha_no_ tablet_de_controle> 
+  <aumentar_velocidade_de_marcha_no_ tablet_de_controle> 
 
-<caminhar_ao_lado_do_paciente> 
+  <caminhar_ao_lado_do_paciente> 
 
  **Escreva** <Paciente precisa de ajuda?> 
 
@@ -501,9 +501,9 @@ Fim
 
 **Escreva** “Ótimo, continue observando-o.” 
 
-<pedir_feedback_ao_paciente> 
+  <pedir_feedback_ao_paciente> 
 
-<apertar_botão_“Parar”_no_equipamento_> 
+  <apertar_botão_“Parar”_no_equipamento_> 
 
 **Escreva** <O ZeroG parou?> 
 
@@ -519,11 +519,11 @@ Fim
 
 **Escreva** “Aperte novamente o botão 'Parar’.” 
 
- <retirar_paciente_do_equipamento> 
+  <retirar_paciente_do_equipamento> 
 
-<finalizar_sessão> 
+  <finalizar_sessão> 
 
-<levar_paciente_de_volta_a_cadeira> 
+  <levar_paciente_de_volta_a_cadeira> 
 
 **Fim_se 
 
