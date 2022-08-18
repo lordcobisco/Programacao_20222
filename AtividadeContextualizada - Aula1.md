@@ -154,58 +154,54 @@ Retire o paciente do equipamento, desafivelando todas as fivelas
 processamento, entrada/saída:**
 
 *Memória:*
-"Guarde as informações de comprimento da perna do paciente"
+Comprimento_coxa_paciente: real
 
-"Paciente foi erguido"
+Velocidade_esteira: real
 
-"Registre o gráfico de movimento do paciente"
+Velocidade_Zerog: real
+
+BotãoParar: booleano
+
+BotãoIniciar: booleano
 
 
 *Processamento:*
 
-"Realize a medição do tamanho da coxa e da perna do paciente"
+Realize a medição
 
-"Busque o cinto ou blusa do Lokomat no local onde ele está guardado"
+Busque a blusa do Lokomat
 
-"Leve o cinto ou blusa do Lokomat até o paciente"
+Leve a blusa do Lokomat
 
-"Peça para que o paciente incline o tronco para frente"
+Erga a blusa do Lokomat e coloque-o atrás da coluna do paciente
 
-"Erga o cinto ou blusa do Lokomat e coloque-o atrás da coluna do paciente, entre a coluna e a cadeira"
+Alinhe o local 
 
-"Alinhe o local sinalizado por um "M" no cinto ou blusa do Lokomat à coluna do paciente"
+Ajuste a blusa do Lokomat 
 
-"Ajuste o cinto ou blusa do Lokomat ao corpo do paciente"
+Prenda a blusa do Lokomat 
 
-"Prenda o cinto ou blusa do Lokomat frente do corpo do paciente"
+Feche todas as travas 
 
-"Feche todas as travas do cinto ou blusa do Lokomat"
+Pegue o controle da plataforma 
 
-"Ajuste o cinto ou blusa do Lokomat ao corpo do paciente";
-
-"Leve o paciente até o local indicado (plataforma)"
-
-"Pegue o controle da plataforma Lokomat"
-
-"Aperte o botão "ligar" do controle"
-
-"Posicione uma corda com fivela e trava de segurança embaixo dos pés do paciente";
+Aperte o botão "ligar"
 
 *Entrada:*
 
 Mouse
 
-Controle
+Controle com botões de acionamento
 
-Teclado
+Teclado para digitar os dados
 
 *Saída:*
 
-Monitor
+Monitor do computador que mostra os gráficos
 
-Gráfico no monitor
+Tablet para mostrar os gráficos
 
-Tablet
+Correntes que acionam o movimento da esteira
 
 
 **3. A partir das informações colocadas no texto da questão 1, destacar o que seriam as estruturas de
