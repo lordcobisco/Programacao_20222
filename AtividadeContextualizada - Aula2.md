@@ -4,4 +4,7 @@ Neste repositório, será feita a apresentação, explicação e orientação do
 
 
 Wiki: https://github.com/akarolinealmeida/Programacao_20222/wiki
+
+https://github.com/akarolinealmeida/Programacao_20222/wiki/Lokomat-e-ZeroG
+
 Projects: https://github.com/akarolinealmeida/Programacao_20222/projects?type=new
