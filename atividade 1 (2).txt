@@ -1,0 +1,53 @@
+ATIVIDADE 1 - LOKOMAT
+Se o paciente não concluiu todas as sessões          P	D1
+Paciente chega ao consultório                        E  D1
+Se não, a sessão não acontece			     P  D1
+Se for a primeira sessão                             P	D2
+Avalie o paciente, medindo seu peso, altura e nível de lesão M    D2
+Se não, avalie o paciente e compare a avaliação com os resultados das sessões anteriores	P D2	
+Coloque o paciente na esteira do Lokomat	P 
+Ajuste o suporte dinâmico ao paciente	P 
+Levante o paciente com o elevador	P 
+Enquanto os ajustes não forem satisfatórios     P R1 
+Acople e ajuste o exoesqueleto ao paciente	P R1
+Acople e ajuste os ângulos e comprimentos das articulações do joelho e cintura ao paciente	P R1
+O suporte para os pés é colocado	M  
+Utilize os dados da avaliação para ajustar a intensidade da terapia	P 
+Se o paciente estiver totalmente preso ao Locomat	P D3	
+Inicie o ciclo de marcha	M D3
+Se a versão do Lokomat for a Lokomatpro Sensation	P D4
+Os algoritmos do Lokomatpro Sensation automaticamente adaptarão o suporte robótico para que o paciente tenha o desafio máximo
+O Lokomatpro Sensation fornecerá funcionalidades novas e fará ajustes automaticamente conforme a marcha do paciente	P D4
+Se não, faça os ajustes manualmente de acordo com o progresso do paciente e o feedback básico fornecido		S  D4
+Registre o velocidade, amplitude de movimento e força do paciente	M 
+Finalizar o ciclo de marcha M 
+Baixar o paciente utilizando o elevador na cadeira de rodas	P 
+Retirar todas as fivelas e cintos	P 
+Analise os dados recebidos e a evolução do paciente	E 
+Se o paciente evoluiu suficientemente para receber alta	P D5
+Então ele receberá alta e vai embora	P D5
+Se não, ele continuará o tratamento	P D5
+Se todas as sessões foram concluídas?	P D6
+Então serão testados outros métodos e o paciente vai embora do consultório	S D6
+Se não, outras sessões serão feitas e o paciente vai embora do consultórioP D6
+
+ZEROG
+O paciente chega no consultório M
+Registre o peso, altura e nivel de lesão do paciente M
+Se o paciente estiver sem a cinta para suporte P
+Então uma cinta é vestida nele P
+A cinta é acoplada ao robô zeroG P
+Cintos de suporte são colocados nas próteses do paciente P
+Ajuste os controles de queda, movimento, peso corporal e rastreamento da posição so robô P
+Inicie o processo de caminhada P
+Se o paciente está andando confortávelmente M
+Se sim, diminua o nível de suporte P
+Se não, aumente ou mantenha o suporte P
+Se o paciente estiver andando rápido demais e perder o controle P
+Então deve ser pressionado o botão de parada rápida e recomeçar a marcha se possível P
+Se for necessário descer o paciente rapidamente P
+Então o botão de emergência deve ser apertado para colocar o paciente no chão P
+Após a sessão, baixar o paciente S P 
+Registrar os avanços do paciente após a sessão M
+Liberar o paciente P
+O paciente vai embora P
