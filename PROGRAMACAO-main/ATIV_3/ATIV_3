@@ -1,0 +1,132 @@
+from re import A
+
+inicio = 'Este programa configura o microscópio confocal para aquisição de imagens.'
+print(inicio)
+
+alt_mensagem = 'Houve alteração na variável inserida?'
+
+tipo_celula = 'neurônio piramidal'
+resolucao = '212 nm'
+comprimento_onda = '405 nm'
+filtro = 'texas red'
+zoom = '10x'
+n_feixes = '1'
+pixels = '248'
+Snr = '23'
+#SNR = razão sinal-ruído
+tamanho_imagem = '10.5 x 3.43 cm'
+salvar_como = 'JPEG'
+
+escolha_tipo_celula = input('Digite qual o tipo de célula:')
+mensagem = input('Houve alteração na variável inserida? Digite s ou n:')
+print((mensagem=='s' and escolha_tipo_celula!=tipo_celula) or (mensagem=='n' and escolha_tipo_celula==tipo_celula))
+
+escolha_resolucao = input('Digite qual a resolução desejada:')
+mensagem = input('Houve alteração na variável inserida? Digite s ou n:')
+print((mensagem=='s' and escolha_resolucao!=resolucao) or (mensagem=='n' and escolha_resolucao==resolucao))
+
+escolha_comprimento_onda = input('Digite qual o comprimento de onda:')
+mensagem = input('Houve alteração na variável inserida? Digite s ou n:')
+print((mensagem=='s' and escolha_comprimento_onda!=comprimento_onda) or (mensagem=='n' and escolha_comprimento_onda==comprimento_onda))
+
+escolha_filtro = input('Digite qual o filtro desejado:')
+mensagem = input('Houve alteração na variável inserida? Digite s ou n:')
+print((mensagem=='s' and escolha_filtro!=filtro) or (mensagem=='n' and escolha_filtro==filtro))
+
+escolha_zoom = input('Digite qual o zoom desejado:')
+mensagem = input('Houve alteração na variável inserida? Digite s ou n:')
+print((mensagem=='s' and escolha_zoom!=zoom) or (mensagem=='n' and escolha_zoom==zoom))
+
+escolha_n_feixes = input('Digite qual o número de feixes desejado:')
+mensagem = input('Houve alteração na variável inserida? Digite s ou n:')
+print((mensagem=='s' and escolha_n_feixes!=n_feixes) or (mensagem=='n' and escolha_n_feixes==n_feixes))
+
+escolha_pixels = input('Digite qual o número de pixels desejado:')
+mensagem = input('Houve alteração na variável inserida? Digite s ou n:')
+print((mensagem=='s' and escolha_pixels!=pixels) or (mensagem=='n' and escolha_pixels==pixels))
+
+escolha_SNR = input('Digite qual a razão sinal-ruído desejada:')
+mensagem = input('Houve alteração na variável inserida? Digite s ou n:')
+print((mensagem=='s' and escolha_Snr!=Snr) or (mensagem=='n' and escolha_SNR==Snr))
+
+escolha_tamanho_imagem = input('Digite qual o tamanho da imagem a ser gerada:')
+mensagem = input('Houve alteração na variável inserida? Digite s ou n:')
+print((mensagem=='s' and escolha_tamanho_imagem!=tamanho_imagem) or (mensagem=='n' and escolha_tamanho_imagem==tamanho_imagem))
+
+escolha_salvar_como = input('Digite o formato que deseja salvar a imagem a ser gerada:')
+mensagem = input('Houve alteração na variável inserida? Digite s ou n:')
+print((mensagem=='s' and escolha_salvar_como!=salvar_como) or (mensagem=='n' and escolha_salvar_como==salvar_como))
+
+infos = 'Configurações definidas pelo usuário:'
+
+print(infos)
+print(escolha_tipo_celula)
+print(escolha_resolucao)
+print(escolha_comprimento_onda)
+print(escolha_filtro)
+print(escolha_zoom)
+print(escolha_n_feixes)
+print(escolha_pixels)
+print(escolha_SNR)
+print(escolha_tamanho_imagem)
+print(escolha_salvar_como)
+
+calibrar = 'Início da calibração, siga as instruções:'
+print(calibrar)
+
+calibracao_telaH = 'Calibração de tela sentido horizontal'
+print(calibracao_telaH)
+
+calibracaoI = input('Digite a letra inicial de seu nome:')
+nome_okI = 'Inicial digitada com sucesso:'
+print (nome_okI, end=''), print(calibracaoI)
+
+calibracaoI_x = input('Digite 10x a letra inicial de seu nome:')
+mensagemI = input('A letra inicial de seu nome foi digitada 10x? Digite s ou n:')
+
+sucesso= 'Etapa da calibração feita com sucesso:'
+print(sucesso, end=''), print(calibracaoI_x == calibracaoI*10)
+
+calibracaoF = input('Digite a última letra de seu nome:')
+nome_okF = 'Última letra digitada com sucesso:'
+print (nome_okF, end=''), print(calibracaoF)
+
+calibracaoF_x = input('Digite 10x a última letra de seu nome:')
+mensagemF = input('A última letra de seu nome foi digitada 10x? Digite s ou n:')
+
+sucesso= 'Etapa da calibração feita com sucesso:'
+print(sucesso, end=''), print(calibracaoF_x == calibracaoF*10)
+
+fim_horizontal = 'Final calibração de tela sentido horizontal, caso alguma resposta foi False, repetir processo.'
+print(fim_horizontal)
+
+calibracao_telaV = 'Calibração de tela sentido vertical'
+print(calibracao_telaV)
+
+calibracaoY = input('Digite a segunda letra de seu nome:')
+nome_okY = 'Segunda letra digitada com sucesso:'
+print (nome_okY, end=''), print(calibracaoY)
+
+calibracaoY_x = input('Digite 10x a segunda letra de seu nome:')
+mensagemY = input('A segunda letra de seu nome foi digitada 10x? Digite s ou n:')
+
+sucesso= 'Etapa da calibração feita com sucesso:'
+print(sucesso, end=''), print(calibracaoY_x == calibracaoY*10)
+
+calibracaoFF = input('Digite a penúltima letra de seu nome:')
+nome_okFF = 'Penúltima letra digitada com sucesso:'
+print (nome_okFF, end=''), print(calibracaoFF)
+
+calibracaoFF_x = input('Digite 10x a penúltima letra de seu nome:')
+mensagemFF = input('A penúltima letra de seu nome foi digitada 10x? Digite s ou n:')
+
+sucesso= 'Etapa da calibração feita com sucesso:'
+print(sucesso, end=''), print(calibracaoFF_x == calibracaoFF*10)
+
+acabou = 'Final calibração: Caso alguma resposta foi False, repetir o processo.'
+print(acabou)
+
+
+
+
+
